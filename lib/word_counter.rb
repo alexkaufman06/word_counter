@@ -3,9 +3,9 @@ class String
     answer = 0
     words = self.split(" ")
     words.each() do |object|
-      if object.eql?(argument) == false
+      if object.downcase().chomp("!").chomp(".").chomp(",").chomp("?").eql?(argument.downcase()) == false
         answer.+(0)
-      else object.eql?(argument) == true
+      else object.downcase().eql?(argument.downcase()) == true
         answer = answer.+(1)
       end
     end
