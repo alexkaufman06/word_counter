@@ -1,7 +1,7 @@
 class String
   define_method(:word_counter) do |argument|
     answer = 0
-    words = self.split(" ")
+    words = split(" ")
     words.each() do |object|
       if object.downcase().chomp("!").chomp(".").chomp(",").chomp("?").eql?(argument.downcase()) == false
         answer.+(0)
