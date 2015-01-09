@@ -20,8 +20,21 @@ button {
   color: #000;
 }
 
+a {
+  text-align: center;
+}
+
 .btn:hover {
-  color: #000;
+  color: #FFF;
   background-color: #848484;
   text-decoration: underline;
+}
+
+strong {
+  color: #848484;
+}
+
+.center {
+  text-align: center;
+  font-size: 30px;
 }

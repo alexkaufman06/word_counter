@@ -9,6 +9,7 @@ end
 
 get('/answer') do
   @object = params.fetch('object')
+  @word = params.fetch('argument')
   @answer = params.fetch('object').word_counter(params.fetch('argument'))
   erb(:answer)
 end
