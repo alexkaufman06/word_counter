@@ -13,7 +13,7 @@ would not be a common occurence so chose to keep the code this way.
 ```
 sinatra
 sinatra-contrib
-
+```
 ### Install Bundler
 ```
 gem install bundler

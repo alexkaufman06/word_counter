@@ -27,8 +27,3 @@ Zarro Boogs
 ### Author
 Alex Kaufman
 #### MIT License
-
-
-License:
-
-MIT License.
